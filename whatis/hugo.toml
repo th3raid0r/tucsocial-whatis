@@ -1,0 +1,6 @@
+baseURL = "http://whatis.tucson.social/"
+languageCode = "en-us"
+title = "What Is tucson.social?"
+
+[permalinks]
+  "/" = "/:filename/"

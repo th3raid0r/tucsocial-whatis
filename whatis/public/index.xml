@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What Is tucson.social?</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on What Is tucson.social?</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is tucson.social?</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>Tucson.social: Redefining Social Media for Our Community In a digital landscape dominated by tech giants, Tucson.social stands apart. We&amp;rsquo;re not here to play by Big Tech&amp;rsquo;s rules - we&amp;rsquo;re here to create a new playbook.&#xA;Our mission is clear: to build a social media ecosystem that truly serves the people of Tucson. As part of the Fediverse, a network of interconnected platforms, we&amp;rsquo;re breaking down barriers between services. With Tucson.social, you can follow local artists, join community discussions, and stay updated on city news across multiple platforms - all from one account.</description>
+    </item>
+  </channel>
+</rss>

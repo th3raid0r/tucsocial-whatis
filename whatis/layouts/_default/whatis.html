@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://tucson.social/pictrs/image/64d5d77c-df85-45ed-be7c-c411862a5261.png?format=webp&thumbnail=256" alt="Tucson Social Logo" class="logo-image">
+            <div class="logo-text">{{ .Site.Title }}</div>
+        </div>
+    </header>
+
+    <div class="controls">
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        <button onclick="toggleFont()">Toggle Font</button>
+        <button onclick="speakContent()">Read Aloud</button>
+    </div>
+
+    <article id="content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </article>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
